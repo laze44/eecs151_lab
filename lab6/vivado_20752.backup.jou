@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Mar  4 15:29:19 2020
+# Process ID: 20752
+# Current directory: /home/cc/eecs151/sp20/class/eecs151-abm/Downloads/fpga_labs_sp20-master/lab6
+# Command line: vivado -mode batch -source scripts/build_project.tcl -tclargs z1top_uart_rx
+# Log file: /home/cc/eecs151/sp20/class/eecs151-abm/Downloads/fpga_labs_sp20-master/lab6/vivado.log
+# Journal file: /home/cc/eecs151/sp20/class/eecs151-abm/Downloads/fpga_labs_sp20-master/lab6/vivado.jou
+#-----------------------------------------------------------
+source scripts/build_project.tcl

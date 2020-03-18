@@ -1,0 +1,120 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Mar  5 14:16:29 2020
+# Process ID: 16503
+# Current directory: /home/cc/eecs151/sp20/class/eecs151-abm/Downloads/fpga_labs_sp20-master/lab6/z1top_uart_rx_proj
+# Command line: vivado z1top_uart_rx_proj.xpr
+# Log file: /home/cc/eecs151/sp20/class/eecs151-abm/Downloads/fpga_labs_sp20-master/lab6/z1top_uart_rx_proj/vivado.log
+# Journal file: /home/cc/eecs151/sp20/class/eecs151-abm/Downloads/fpga_labs_sp20-master/lab6/z1top_uart_rx_proj/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project z1top_uart_rx_proj.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse /home/cc/eecs151/sp20/class/eecs151-abm/Downloads/fpga_labs_sp20-master/lab6/sim/uart_receiver_tb.v
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top uart_receiver_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+launch_simulation
+source uart_receiver_tb.tcl
+current_wave_config {Untitled 1}
+add_wave {{/uart_receiver_tb/dut/rx_shift_val}} 
+current_wave_config {Untitled 1}
+add_wave {{/uart_receiver_tb/dut/sample_data}} 
+restart
+run 50 us
+current_wave_config {Untitled 1}
+add_wave {{/uart_receiver_tb/dut/bit_counter_val}} 
+restart
+run 50 us
+current_wave_config {Untitled 1}
+add_wave {{/uart_receiver_tb/dut/is_sample_time}} 
+current_wave_config {Untitled 1}
+add_wave {{/uart_receiver_tb/dut/is_symbol_edge}} 
+current_wave_config {Untitled 1}
+add_wave {{/uart_receiver_tb/dut/bit_counter_ce}} 
+restart
+run 50 us
+current_wave_config {Untitled 1}
+add_wave {{/uart_receiver_tb/dut/bit_counter_next}} 
+restart
+run 50 us
+current_wave_config {Untitled 1}
+add_wave {{/uart_receiver_tb/dut/data_out_fire}} 
+restart
+run 50 us
+relaunch_sim
+restart
+run 50 us
+restart
+relaunch_sim
+restart
+run 50 us
+relaunch_sim
+restart
+run 50 us
+restart
+run 50 us
+close_sim
+launch_simulation
+source uart_receiver_tb.tcl
+restart
+run 50 us
+run 50 us
+relaunch_sim
+restart
+run 100 us
+current_wave_config {Untitled 2}
+add_wave {{/uart_receiver_tb/dut/rx_shift_val}} 
+current_wave_config {Untitled 2}
+add_wave {{/uart_receiver_tb/dut/rx_shift_next}} 
+current_wave_config {Untitled 2}
+add_wave {{/uart_receiver_tb/dut/rx_shift_ce}} 
+current_wave_config {Untitled 2}
+add_wave {{/uart_receiver_tb/dut/sample_data}} 
+current_wave_config {Untitled 2}
+add_wave {{/uart_receiver_tb/dut/bit_counter_val}} 
+current_wave_config {Untitled 2}
+add_wave {{/uart_receiver_tb/dut/a_state}} 
+restart
+run 100 us
+relaunch_sim
+restart
+run 100 us
+current_wave_config {Untitled 2}
+add_wave {{/uart_receiver_tb/dut/rx_shift_next}} 
+relaunch_sim
+restart
+run 100 us
+update_compile_order -fileset sources_1
+relaunch_sim
+restart
+run 100 us
+current_wave_config {Untitled 2}
+add_wave {{/uart_receiver_tb/dut/data_out}} 
+relaunch_sim
+restart
+run 100 us
+relaunch_sim
+restart
+run 100 us
+relaunch_sim
+restart
+run 100 us
+update_compile_order -fileset sources_1
+relaunch_sim
+restart
+run 100 us
+relaunch_sim
+restart
+run 100 us
+close_sim

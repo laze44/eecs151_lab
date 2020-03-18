@@ -1,0 +1,11 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x0",
+      "name": "z1top_uart_rx_bd",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2019.1"
+    },
+    "design_tree": {}
+  }
+}

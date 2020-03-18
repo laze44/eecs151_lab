@@ -1,0 +1,8 @@
+0.6
+2019.1
+May 24 2019
+14:51:52
+/home/cc/eecs151/sp20/class/eecs151-abm/Downloads/fpga_labs_sp20-master/lab6/sim/uart_receiver_tb.v,1583451302,verilog,,,,uart_receiver_tb,,,,,,,,
+/home/cc/eecs151/sp20/class/eecs151-abm/Downloads/fpga_labs_sp20-master/lab6/src/uart_receiver.v,1583450825,verilog,,/home/cc/eecs151/sp20/class/eecs151-abm/Downloads/fpga_labs_sp20-master/lab6/sim/uart_receiver_tb.v,/home/cc/eecs151/sp20/class/eecs151-abm/Downloads/fpga_labs_sp20-master/lib/EECS151.v,uart_receiver,,,,,,,,
+/home/cc/eecs151/sp20/class/eecs151-abm/Downloads/fpga_labs_sp20-master/lab6/z1top_uart_rx_proj/z1top_uart_rx_proj.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+/home/cc/eecs151/sp20/class/eecs151-abm/Downloads/fpga_labs_sp20-master/lib/EECS151.v,1582142295,verilog,,,,ASIC_SYNC_RAM_DP;ASYNC_RAM;ASYNC_ROM;REGISTER;REGISTER_CE;REGISTER_R;REGISTER_R_CE;SYNC_RAM;SYNC_ROM;XILINX_ASYNC_RAM_DP;XILINX_SYNC_RAM_DP,,,,,,,,
